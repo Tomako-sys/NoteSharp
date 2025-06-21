@@ -1,47 +1,39 @@
-Mini Notepad – Python
-A lightweight, self-contained notepad utility for Windows written in Python.
-No dependencies to install – it works out of the box on any standard Python installation (tkinter is included by default).
+# NoteSharp
 
-Features
-Modern text editor interface
+A modern, minimalist, and powerful note editor for Windows (Python + Tkinter)  
+Supports multiple tabs, code highlighting, and advanced productivity tools — all **without any external dependencies**.
 
-Line numbering (auto-synchronized)
+---
 
-Standard editing features: Undo, Cut, Copy, Paste, Select All
+## 🚀 Features
 
-Open/Save plain text files (.txt)
+- **Multi-tab Editing:** Work with several notes at once (each in its own tab)
+- **Line Numbers:** See line numbers for easier navigation
+- **Find & Replace:** Integrated dialog (Ctrl+F) per tab
+- **Live Statistics:** Status bar shows character, word, line, and paragraph counts (plus selection)
+- **Python Syntax Highlighting:** Automatic blue highlighting for Python keywords
+- **HTML/CSS Syntax Highlighting:** One-click coloring for HTML tags and CSS selectors (from Tools menu)
+- **Auto-Save:** Enable/disable auto-save for your notes (from Tools menu, every 2 min by default)
+- **Read-Only Mode:** Lock notes against accidental editing (Tools menu)
+- **Snippets:** Insert customizable headers, signatures, or dates instantly
+- **Global Search:** Find a word or phrase across all open tabs (Tools menu)
+- **Theme Support:** Switch between light and dark mode
+- **Font Customization:** Change font family and size
+- **No Dependencies:** Runs out of the box with Python (uses only standard `tkinter`)
 
-Find and Replace (with highlight, replace one or all, Ctrl+F shortcut)
+---
 
-Keyboard shortcuts (Ctrl+S, Ctrl+O, Ctrl+Q, Ctrl+F, Ctrl+A, etc.)
+## 📦 Installation
 
-Fully portable – works anywhere Python runs (Windows recommended)
+**Requirements:**  
+- Python 3.8+ (with tkinter, included in standard Python distributions)
 
-Usage
-Make sure you have Python 3 installed (download from python.org, Windows installer includes tkinter by default).
+**Download:**  
+- [Latest release](https://github.com/Tomako-sys/NoteSharp/releases)
+**Run:**  
+```bash
+python NoteSharp.pyw
 
-Download or copy the script (e.g. mininotepad.py).
+---
 
-Run with a double-click (if .py files are associated with Python) or use the command line:
-
-(python mininotepad.py)
-
-Use the menus and shortcuts to edit, search, and save your text files.
-
-No external dependencies
-Only uses Python’s built-in tkinter module.
-
-No pip/installation required.
-
-Screenshots
-(Add screenshots here if needed)
-
-Customization
-Want to improve or personalize this tool?
-
-The script is fully commented and modular.
-
-You can add themes, font options, spellcheck, tabs, etc.
-
-License
-MIT License 
+If you want other language version, or want the CHANGELOG/FAQ, just ask!
