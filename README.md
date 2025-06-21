@@ -20,7 +20,7 @@ Supports multiple tabs, code highlighting, and advanced productivity tools — a
 - **Theme Support:** Switch between light and dark mode
 - **Font Customization:** Change font family and size
 - **No Dependencies:** Runs out of the box with Python (uses only standard `tkinter`)
-
+  
 ---
 
 ## 📦 Installation
@@ -36,4 +36,4 @@ python NoteSharp.pyw
 
 ---
 
-If you want other language version, or want the CHANGELOG/FAQ, just ask!
+If you want other language,Features, or want the CHANGELOG/FAQ, just ask!
