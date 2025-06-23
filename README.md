@@ -6,20 +6,28 @@ Supports multiple tabs, code highlighting, and advanced productivity tools — a
 ---
 
 ## 🚀 Features
-
-- **Multi-tab Editing:** Work with several notes at once (each in its own tab)
-- **Line Numbers:** See line numbers for easier navigation
-- **Find & Replace:** Integrated dialog (Ctrl+F) per tab
-- **Live Statistics:** Status bar shows character, word, line, and paragraph counts (plus selection)
-- **Python Syntax Highlighting:** Automatic blue highlighting for Python keywords
-- **HTML/CSS Syntax Highlighting:** One-click coloring for HTML tags and CSS selectors (from Tools menu)
-- **Auto-Save:** Enable/disable auto-save for your notes (from Tools menu, every 2 min by default)
-- **Read-Only Mode:** Lock notes against accidental editing (Tools menu)
-- **Snippets:** Insert customizable headers, signatures, or dates instantly
-- **Global Search:** Find a word or phrase across all open tabs (Tools menu)
-- **Theme Support:** Switch between light and dark mode
-- **Font Customization:** Change font family and size
-- **No Dependencies:** Runs out of the box with Python (uses only standard `tkinter`)
+- **Multi-Tab Editing:** Work with several notes or code files at once
+- **Language Switcher:** Instantly switch all menus and dialogs between English and French
+- **Line Numbers:** Easy navigation with line numbering in every tab
+- **Find & Replace:** Dialog per tab (Ctrl+F)
+- **Live Statistics:** Status bar with character, word, line, paragraph, and selection counts
+- **Python Syntax Highlighting:** Automatic in all tabs
+- **HTML/CSS Highlighting:** One-click from the Tools menu
+- **Auto-Save:** Enable or disable periodic saving per tab
+- **Read-Only Mode:** Lock/unlock tabs to prevent edits
+- **Recent Files Menu:** Quickly reopen recent files
+- **Word Wrap Toggle:** Enable or disable text wrapping
+- **Lock/Unlock Tab:** Prevent closing a tab by mistake
+- **Go to Line:** Jump directly to a line number
+- **UPPERCASE/lowercase:** Convert selected text
+- **Duplicate Line:** Duplicate the current line instantly
+- **Show Invisibles:** Visualize spaces (·) and tabs (→)
+- **Insert Timestamp:** Add the current date/time at the cursor
+- **Snippets:** Insert headers, signatures, or dates instantly
+- **Theme Support:** Switch between light and dark modes
+- **Font Customization:** Change font and size
+- **Keyboard Shortcuts:** For all essential actions
+- **No Dependencies:** Runs anywhere Python (uses only standard `tkinter`)
   
 ---
 
@@ -37,3 +45,4 @@ python NoteSharp.pyw
 ---
 
 If you want other language,Features, or want the CHANGELOG/FAQ, just ask!
+If you want a French README, just ask!
