@@ -336,7 +336,7 @@ class GitIntegration:
                     self.parent.after(0, lambda: messagebox.showerror("Error", f"Git commit failed: {result.stderr}"))
             
             except Exception as e:
-                self.parent.after(0, lambda: messagebox.showerror("Error", f"Git commit failed: {str(e)}"))
+                self.parent.after(0, lambda err=e: messagebox.showerror("Error", f"Git commit failed: {str(err)}"))
         
         thread = threading.Thread(target=commit, daemon=True)
         thread.start()
