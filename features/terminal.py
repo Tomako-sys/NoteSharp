@@ -187,7 +187,7 @@ class IntegratedTerminal:
                     self.parent.after(0, lambda: self.append_output(f"\nCommand exited with code {process.returncode}\n", 'error'))
                 
             except Exception as e:
-                self.parent.after(0, lambda: self.append_output(f"Error: {str(e)}\n", 'error'))
+                self.parent.after(0, lambda err=e: self.append_output(f"Error: {str(err)}\n", 'error'))
         
         # Run in separate thread
         thread = threading.Thread(target=run_command, daemon=True)
