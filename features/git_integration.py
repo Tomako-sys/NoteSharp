@@ -245,7 +245,7 @@ class GitIntegration:
                     self.parent.after(0, lambda: messagebox.showerror("Error", f"Git add failed: {result.stderr}"))
             
             except Exception as e:
-                self.parent.after(0, lambda: messagebox.showerror("Error", f"Git add failed: {str(e)}"))
+                self.parent.after(0, lambda err=e: messagebox.showerror("Error", f"Git add failed: {str(err)}"))
         
         thread = threading.Thread(target=add_all, daemon=True)
         thread.start()
